@@ -1,6 +1,6 @@
 <?php
-$uname = "karanjitsu";
-$dbname = "karanjitsu_Company";
-$pass = "Scr3@ming12!";
+$uname = "Your UserNme";
+$dbname = "DB Name";
+$pass = "Password";
 $status = "Connection Failed";
 ?>

@@ -1,7 +1,7 @@
 <?php
-$dbname = "karanjitsu_Company"; // replace with your database name
-$username = "karanjitsu";  // replace with your username
-$password = "Scr3@ming12!";  // replace with your password, nobody can see it
+$dbname = "Your DB"; // replace with your database name
+$username = "User";  // replace with your username
+$password = "Password";  // replace with your password, nobody can see it
 extract($_POST);
 echo <<< HERE
    <form method="POST"> 

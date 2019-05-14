@@ -1,13 +1,13 @@
 <?php
-$dbname = "karanjitsu_menagerie"; // replace with your database name
-$username = "karanjitsu";  // replace with your username
-$password = "Scr3@ming12!";  // replace with your password, nobody can see it
+$dbname = "Your DB"; // replace with your database name
+$username = "User";  // replace with your username
+$password = "Password";  // replace with your password, nobody can see it
 extract($_POST);
 echo <<< HERE
    <form method="POST"> 
    <h2>Database: $dbname</h2>
    <h2>View Tables: 
-         <input type="submit" name="button" value="pet">
+         <input type="submit" name="button" value="Employee_Information">
          <input type="submit" name="button" value="event"><BR>
    </h2>
    </form>
@@ -15,7 +15,7 @@ echo <<< HERE
       <input type="submit" value="return to assignment index">
    </form>
 HERE;
-if ($button == "pet" or $button == "event")
+if ($button == "Employee_Information" or $button == "event")
 {
 	   echo <<< HERE
       <form method="POST"> 
