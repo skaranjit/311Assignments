@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+<link rel="stylesheet" type="text/css" href="./../content/css/style.css">
+<link rel="stylesheet" href="./../content/css/bootstrapcss.css">
+<link rel="stylesheet" href="./../content/css/form.css">
+<title>List of Assignments</title>
+</head>
+<body>
+
+<ul class="sidenav">
+	<a href="./../index.html"><img src="./../content/images/logo.png"/></a>
+	<li><a href="./../index.html">Home</a></li>
+	<li><a href="./../module01assign01/index.html">About Me</a></li>
+	
+</ul>
+	<div id="homepage" class="contentbox">
+		<img src="./../content/images/goback.png" onclick="goBack()"/>
+			<div class="container">
+				<h2>Km per Litre Calculator</h2>
+				<br>
+				<form method="post" action="calculate.php">
+				  <div class="form-group">
+					
+					<div class="col-auto">
+					<label>Enter distance travelled in Kilometer:</label>
+						<div class="input-group-prepend">
+						<input type="text" class="form-control" name="distance" placeholder="eg:180">
+						<div class="input-group-text">Km</div>
+						</div>
+					</div>				
+					<div class="col-auto">
+						<label>Enter amount of gas in litre:</label>
+							<div class="input-group-prepend">
+								<input type="text" class="form-control" name="volume" placeholder="eg:10">
+								<div class="input-group-text">Li</div>
+							</div>
+					</div>
+				
+				<div class="col-auto">
+				
+				<button type="submit" name="calc" class="btn btn-primary mb">Calculate</button>
+
+				</div>
+					</div>
+				</form>
+			</div>
+    </div>
+<footer class="footer">
+<div class="page-footer" style="text-align:center; ">
+Copyright &#169; Skaranjit inc.&#174;
+</div>
+</footer>
+
+</body>
+</html>
